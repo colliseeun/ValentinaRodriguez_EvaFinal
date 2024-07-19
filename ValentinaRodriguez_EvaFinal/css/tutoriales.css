@@ -1,0 +1,333 @@
+body {
+    font-family: "Figtree";
+    margin: 0;
+    padding: 0;
+}
+
+/* header con menu */
+header {
+    background-color: #000;
+    color: #1eff1e;
+    height: 60px;
+    width: 100%;
+    font-family: "Figtree";
+    position: fixed;
+    z-index: 1000;
+}
+
+.logo img {
+    height: 40px;
+    padding: 9px;
+}
+
+.cajaheader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    z-index: 1000;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+    margin-top: 10px;
+}
+
+.nav-menu li {
+    margin: 10px 0;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #fff;
+    border-radius: 50px;
+    padding: 0.5rem 1rem;
+}
+
+.nav-menu a:hover {
+    background: #1eff1e;
+    border-radius: 50px;
+}
+
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.menu-toggle span {
+    height: 2px;
+    width: 25px;
+    background: #fff;
+    margin: 4px 0;
+}
+
+@media (max-width: 768px) {
+    .nav-menu {  
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+     .nav-menu :active {
+        display: flex;
+    }
+    .menu-toggle {
+        display: flex;
+    }
+}
+
+/*primera seccion*/
+
+.primera-seccion {
+    padding: 0 0;
+    text-align: center;
+    font-family: "Figtree";
+    background-image: url(../image/fondoverde.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.contenedor1 {
+    max-width: 100%;
+    height: 400px;
+    margin: auto;
+    padding: 100px 20px;
+    border-radius: 5px;
+    color: black;
+}
+
+.contenedor1 h1{
+    font-size: 40px;
+    margin-top: 200px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.boton1 {
+    display: inline-block;
+    padding: 15px 40px;
+    background-color: #1eff1e;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;;
+ }
+
+ .boton1:hover {
+    background-color: #fff;
+    color: #000000;
+ }
+
+/*seccion 2*/
+
+.segunda-seccion {
+    background-color: #000;
+    padding: 50px 0;
+    font-family: "Figtree";
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+} 
+
+.segunda-seccion h1 {
+    font-size: 40px;
+    color: #1eff1e;
+}
+
+.titulo p {
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.tutorial1 p {
+    color: #000;
+    margin: 10px;
+    padding: 10px;
+}
+
+.cajatutoriales {
+    display: flex;
+}
+
+.tutorial1 {
+    background-color: #fff;
+    padding: 3px;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.tutorial1 img {
+    height: 200px;
+    margin: 15px;
+    border: 2px #1eff1e solid;
+    border-radius: 5px;
+}
+
+.tutorial1 img:hover {
+    transform: scale(1.05);
+}
+
+.tutoboton {
+    display: inline-block;
+    padding: 15px 25px;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+    margin: 10px;
+}
+
+.tutoboton:hover {
+    background-color: #1eff1e;
+    color: #000000;
+}
+
+/*seccion 3*/
+
+.tercera-seccion {
+    background-color: #000;
+    padding: 50px 0;
+    font-family: "Figtree";
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+} 
+
+.tercera-seccion h1 {
+    font-size: 40px;
+    color: #1eff1e;
+}
+
+.tercera-seccion p {
+    color: #fff;
+}
+
+.titulo p {
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.parrafos {
+    display: flex;
+}
+
+.parrafos p {
+    color: #fff;
+    font-size: 15px;
+    margin: 10px;
+    padding: 10px;
+    text-align: justify;
+}
+
+/*cuarta-seccion*/
+
+.cuarta-seccion {
+    background-color: #1eff1e;
+    padding: 50px 0;
+    font-family: "Figtree";
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    height: 350px;
+} 
+
+.contenedor4 {
+    display: block;
+    padding: 80px;
+}
+.contenedor4 h1 {
+    font-size: 40px;
+    color: #000;
+}
+
+.contenedor4 p {
+    color: #fff;
+}
+
+.boton4 {
+    display: inline-block;
+    padding: 15px 25px;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+    margin: 10px;
+}
+
+.boton4:hover {
+    background-color: #fff;
+    color: #000000;
+}
+
+/*footer */
+footer {
+    background-color: #ffffff;
+    color: #000;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+}
+
+.footer-section {
+    width: 23%; 
+    padding: 10px;
+    box-sizing: border-box; 
+    text-align: left;
+}
+
+.footer-section h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.footer-section p {
+    font-size: 0.9em;
+    line-height: 1.6;
+}
+
+.footer-section img {
+    width: 50%;
+}
+
+.footer-section input[type="email"],
+.footer-section textarea {
+    width: 100%;
+    padding: 10px; 
+    margin-bottom: 15px;
+    box-sizing: border-box; 
+}
+
+@media (max-width: 768px) {
+    .footer-section {
+        width: 48%; 
+        margin-bottom: 10px; 
+    }
+}
+
+@media (max-width: 480px) {
+    .footer-section {
+        width: 100%;
+    }
+}

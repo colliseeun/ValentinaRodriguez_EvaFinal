@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EP4 DISEÑO WEB</title>
+    <link rel="shortcut icon" href="image/favicon/robot01.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/contacto.css">
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="cajaheader">
+            <div class="logo">
+                <a href="index.html"> <img src="image/logo.png"> </a>
+            </div>
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="aplicaciones.html" class="boton">APLICACIONES</a></li>
+                    <li><a href="tutoriales.html" class="boton">TUTORIALES</a></li>
+                    <li><a href="contacto.html" class="boton">CONTACTO</a></li>
+                    <li><a href="#">Reserva tu Curso</a></li>
+                </ul>
+                <div class="menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <section class="primera-seccion">
+        <div class="contenedor1">
+            <h1>CONTÁCTANOS Y RESERVA TU CURSO</h1>
+            <a href="" class="boton1">Contáctanos</a>
+        </div>
+    </section>
+    <section class="segunda-seccion">
+        <div>
+            <h1>UTILIZA NUESTRO CURSO</h1>
+            <p>¡Descubre el mundo del desarrollo web con nuestros cursos de HTML y CSS!</p>
+        </div>
+        <div class="contenedorc">
+            <div class="imagen4">
+                <img src="image/contacto/contactimg.jpg" alt="">
+            </div>
+            <div class="contactotexto">
+                <p>Aprende a crear páginas increíbles y funcionales en solo semanas. Únete a nuestra comunidad de aprendizaje y empieza a construir tu futuro digital hoy mismo. Regístrate ahora y haz realidad tus proyectos web con nosotros.</p>
+                <a href="" class="boton4">Ver Cursos</a>
+            </div>
+        </div>
+    </section>
+    <section class="tercera-seccion">
+        <div>
+            <h1>¡SUSCRIBETE Y RECIBE GRANDES OFERTAS!</h1>
+            <p>¿Quieres aprender HTML y CSS desde cero? Suscríbete a nuestro curso y domina la creación de sitios web. No te pierdas nuestras ofertas exclusivas y actualizaciones sobre nuevos contenidos. ¡Empieza tu viaje hacia el desarrollo web hoy mismo con nuestro curso especializado!</p>
+        </div>
+        <div class="formcontacto">
+            <form action="#" method="post">
+                <label for="nombre">Ingresa tu nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                
+                <label for="telefono">Ingresa tu Número de Celular:</label>
+                <input type="tel" id="telefono" name="telefono" pattern="[0-9]{10}" required>
+                
+                <label for="correo"> Ingresa tu Correo Electrónico:</label>
+                <input type="email" id="correo" name="correo" required>
+                
+                <input type="submit" value="Enviar">
+                <input type="button" value="Cancelar" onclick="window.location.href='cancelar.html';">
+            </form>
+        </div>
+    </section>
+    <section class="cuarta-seccion">
+        <div class="contenedor4">
+            <h1>NUESTRAS NOVEDADES SEMANALES</h1>
+            <p>Únete a nuestro blog de cursos sobre HTML y CSS y empieza a dominar la creación de páginas web desde cero. Descubre tutoriales prácticos, consejos útiles y actualizaciones sobre las últimas tendencias en desarrollo web. ¡Conviértete en un experto hoy mismo!</p>
+            <a href="" class="boton4">Ir a nuestro Blog</a>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <p>El desarrollo web abarca todas las actividades involucradas en la creación y mantenimiento de sitios web y aplicaciones web.</p>
+                <img src="image/icons.png">
+            </div>
+            <div class="footer-section">
+                <h3>Mapa de Sitio</h3>
+                <ul>
+                    <li>Aplicaciones</li>
+                    <li>Tutoriales</li>
+                    <li>Contacto</li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Evaluación Permanente 4 </h3>
+                <p>Incorporando tablas, formularios y diversos elementos animados e interactivos, aplicando formularios, tablas, animaciones y aspectos avanzados en cada parte de la estructura de página HTML.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Suscribete a Nuestro Curso</h3>
+                <label for="email"></label>
+                <input type="email" id="email" name="email" placeholder="Ingrese su correo electrónico" required maxlength="100">
+                <button type="submit" class="submit-btn">Enviar datos</button>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
